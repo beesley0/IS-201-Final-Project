@@ -1,0 +1,114 @@
+body {
+    background-color: rgb(197, 239, 253); 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.common header{
+    color: #204e7c;
+    font-family: 'Georgia', serif;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h1 {
+    color: #204e7c;
+    font-family: 'Georgia', serif;
+    text-align: center;
+    text-decoration: underline;
+  }
+
+h2{
+    color: #204e7c;
+    font-family: 'Georgia', serif; 
+    font-weight: bold;
+    text-align: center;
+}
+
+  p {
+    color: #b90505;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+  }
+
+  a {
+    color: #007BFF;
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+  }
+
+  a:hover {
+    color: #0056b3;
+  }
+
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+  }
+
+  .footer{
+    background-color: #204e7c;
+    color: whitesmoke;
+    position:fixed;
+    bottom: 0px;
+    left: 5px;
+    right: 5px;
+    height: 25px;
+    padding-top: 15px;
+    text-align: center;
+    z-index: 1000;
+  }
+
+  .video-container {
+    text-align: center;
+    margin-top: 20px;
+    left:5px;
+    right:5px;
+  }
+
+  a{
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .bottom{
+    font-size: 25px;
+    text-align:center;
+    color:whitesmoke
+  }
+
+  .navbar {
+    background-color: #204e7c;
+    overflow: hidden;
+    padding: 10px 0;
+    font-weight:bold;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    overflow: hidden;
+    text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:bold;
+  }
+
+  nav a:hover{
+    background-color: whitesmoke;
+  }
+
+  ol > li {
+    font-weight: bold;
+  }
+
+  li {
+    font-weight: normal;
+  }
